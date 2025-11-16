@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+#bars {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.bar {
+  width: 20px;
+  margin: 3px;
+  background: #4ECDC4;
+  transition: height 0.3s;
+}
+
+.highlight {
+  background: #FF6B6B !important;
+}
